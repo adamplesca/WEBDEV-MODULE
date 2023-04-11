@@ -1,0 +1,8 @@
+body{
+    background-color: red;
+}
+#ED{
+    position: absolute;
+    background-position-x: 100px;
+    background-position-y: 300px;
+}

@@ -1,0 +1,62 @@
+/* main - see media queries below */
+
+body{
+	color: #665544;
+	background-color: tan;
+	padding: 20px;
+}
+
+p{
+	width: 450px
+}
+
+img.sml{
+	width: 200px;
+	height: 200px; 
+}
+
+img.med{
+	width: 300px;
+	height: 300px; 
+}
+
+h1{
+	background-color: #b3ffff;
+}
+
+.example{
+	margin-top: 100px;
+}
+
+/* On screens that are 992px or less, set the background color to orange */
+@media screen and (max-width: 992px) {
+  body {
+    
+	/* change the background colour */
+  }
+  img.sml{
+	/* change the height and width */
+  }
+  img.med{
+	/* change the height and width */
+  }
+  
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+   /* change the background colour */
+  }
+  img.sml{
+	/* change the height and width */
+  }
+  img.med{
+	/* change the height and width */
+  }
+}
+
+
+  
+
+

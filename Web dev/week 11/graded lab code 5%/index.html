@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- good template form for project -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> graded lab 5% </title>
+        <script type="text/javascript">
+            function validate(){
+                var valid = true;
+                var msge = "Incomplete form, ";
+                //use if statements to check the data and set the message, basically "letting" (forcing) the userto input some date manually 
+                if(document.getElementById("fn").value == ""){
+                    msge += "You need to fill in Firstname. ";
+                    valid = false;
+                }
+                if(document.getElementById("sn").value == ""){
+                    msge += "You need to fill in Surname. ";
+                    valid = false;
+                }
+                if(document.getElementById("dn").value == ""){
+                    msge += "You need to fill in age. ";
+                    valid = false;
+                }
+                if(document.getElementById("dn").value == ""){
+                    msge += "You need to fill in a normal age. ";
+                    valid = false;
+                }
+                if(document.getElementById("bn").value == ""){
+                    msge += "You need to fill in your email. ";
+                    valid = false;
+                }
+                if(!valid){ //!valid is the same as valid == false because ! is the NOT operator and flips something from false to true and vice versa
+                    document.getElementById("msge1").innerHTML = msge;
+                }
+                return valid;
+            }
+        </script>
+		<script type="text/javascript">
+            document.getElementById("msge2").innerHTML onclick = function{
+				document.write(" Is this wworking?");
+			}
+        </script>
+		
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Enter your details here</h1>
+        <hr>
+        <form onsubmit="return validate()">
+            First name: <input type="text" id="fn">
+            Surname: <input type="text" id="sn">
+            Age: <input type="number" id="dn" required="">
+            Email: <input type="text" id="bn">
+            <input type="submit" value="Submit form">
+        </form>
+        <p id="msge1"></p>
+		<br>
+		<h3><p type=onclick() id="msge2"> <button> Click </button>
+		
+		</p><h3>
+    </body>
+</html>

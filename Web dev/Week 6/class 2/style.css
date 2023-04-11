@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    border: 2px solid;
+    border-top-style: dotted;
+    background-color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+p{
+    border: 1px solid;
+    padding: 5px;
+    font-size: 15px;
+    background-color: grey;
+}
+.picture{
+    position:absolute;
+    left: 30%;
+    opacity: 0.7;
+    border: 10px solid white;
+}

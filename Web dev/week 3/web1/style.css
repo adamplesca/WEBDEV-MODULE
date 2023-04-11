@@ -1,0 +1,50 @@
+/* universal selector */
+
+{
+    color: blue;
+}
+/Getting more specific with the selector/
+p{
+    color: green;
+}
+a{
+    text-decoration: none;
+}
+/ <a> is a child of li/
+li> a{
+    text-shadow: 1px 1px black;
+}
+/ this defines the class of orange to h1 */l
+h1.orange{
+    color: orange;
+}
+
+.sml{
+    height: 150px;
+    width: 150px;
+}
+
+.med{
+    height: 300px;
+    width: 300px;
+}
+.lrg{
+    height: 450px;
+    width: 450px;
+}
+body{
+	background-image: url("akira.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+h1{
+	background-color: #b3ffff
+	position: fixed;
+	top: 100px;
+	left: 50px;
+}
+
+	
+	
+	

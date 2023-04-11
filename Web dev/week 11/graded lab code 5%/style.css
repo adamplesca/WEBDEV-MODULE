@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+}
+form{
+	border: 1px solid black;
+	background-color: green;
+	width: 1010px;
+	color: white;
+	padding: 5px;
+}
+h1{
+	color: white;
+}
+p{
+	color: white;
+}

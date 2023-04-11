@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JavaScript</title>
+		<script>
+		//var grade = parseInt(prompt("enter numeric grade", ""));
+		//if(){
+			//fail
+		//}
+		//else if(){
+			//pass
+		//}
+		//else if(){
+			//merit
+		//}
+		//else if(){
+			//distinction
+		//}
+		//else{
+			//invalid entry 
+		//}
+		//print the var message on screen 
+		var secret = 5;
+            var i;
+            for(i = 1; i <=3; i++){   //for loop to run 3 times
+           
+                var guess = parseInt(prompt("Enter a guess 1-5"));
+           
+                if(secret == guess){
+                    document.write("\n Guessed it");
+                }else if(secret < guess){
+                    document.write("\nguess is too high");
+                }else if(secret > guess){
+                    document.write("\nsecret bigger than guess");
+                }else{
+                    document.write("\ninvalid input" );
+                }
+           
+            }
+            document.write("\n out of the loop" );
+			</script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<p> paragraph </p>
+	</body>
+</html>

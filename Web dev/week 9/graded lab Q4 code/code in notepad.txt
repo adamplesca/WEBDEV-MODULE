@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Q4 code </title>
+        <script type="text/javascript">
+            //random number generator between 1 - 10
+            //let x = Math.floor(Math.random() * 10) + 1;
+            //console.log(x);
+            //guessing game code
+            var secretNumber;
+            secretNumber = 6;
+            var guess;
+            guess = num;
+                alert("Guess the secret number between 1 and 10 ");
+                var num = prompt("Pick the number ")
+                while(num < secretNumber){
+                    document.write("Number is too low")
+                }
+                while(num > 6){
+                    document.write("Number is too high")
+                }
+                while(num = 6){
+                    document.write("You guessed the right number!")
+                }
+        </script>
+    </head>
+    <body onload="hello()">
+        <p></p>   
+    </body>
+</html>

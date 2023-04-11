@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    border: 1px solid;
+
+}
+#profilepic{
+    border: 2px solid;
+    position:absolute;
+    left: 650px;
+    top: 150px;
+}
+table{
+    position: absolute;
+    top: 150px;
+    right: 180px;
+}
+th{
+    border: 1px solid;
+    padding: 5px;
+    font-size: 30px;
+}
+#paragraphTextForSection2{
+    border: 2px solid;
+    position:absolute;
+    right: 80px;
+    top: 300px;
+}
+#paragraphTextForSection3{
+    border: 2px solid;
+    position:absolute;
+    right: 80px;
+    top: 360px;
+}

@@ -1,0 +1,15 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	border: 2px solid black;
+	background: cyan;
+	border: dotted;
+	
+}
+img{
+	border: 2px solid black;
+}
+#p1{
+	border: 2px solid grey;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+#form1{
+    position: absolute;
+    left: 440px;
+    top: 96px;
+}
+#form2{
+    position: absolute;
+    left: 440px;
+    top: 173px;
+}
+.formborder1{
+    border-radius: 4px;
+    border-color: black;
+}

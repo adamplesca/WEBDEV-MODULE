@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+}
+#demo{
+   text-align: center;
+   font-size: 50px;
+   border: 1px solid white;
+   border-radius: 20%;
+}
+#button{
+    position: absolute;
+    left: 720px;
+    size-adjust: 50%;
+}

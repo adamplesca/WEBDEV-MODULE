@@ -1,0 +1,13 @@
+body{
+	background-color: lightblue;
+}
+div{
+	height: 200px;
+	width: 400px;
+	background-color: white;
+	float: right;
+}
+.clear{
+	clear: both;
+	display: block;
+}
